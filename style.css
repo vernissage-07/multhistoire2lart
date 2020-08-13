@@ -1,8 +1,8 @@
 
 
-html, body, div#colonne1,#colonne1a, div#colonne2,#colonne2a {
-height : 75%;
-width : 75%;
+html, body, table, td {
+height : 80%;
+width : 80%;
 margin : auto;
 padding : auto;
 text-align: center;
@@ -15,14 +15,14 @@ position : relative;
 margin : auto;
 width : center;
 height : center;
-text-align: auto;
+text-align: center;
 
 }
 
 body { 
 	text-align: center;
-	font: 75% georgia, sans-serif;
-	line-height: 2;
+	font: 80% georgia, sans-serif;
+	line-height: 2.5;
 	color: #555753; 
 	margin: center; 
 	padding: center;
@@ -41,7 +41,7 @@ P.blocktext {
 h2 { 
 	
 	text-align: auto;
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic normal 1.6em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: center; 
 	color: #7D775C;
@@ -55,23 +55,25 @@ a:link {
 	}
 
 
-div#colonne1,#colonne1a {
-	float: left;
-	width: 180px;
-	margin-right: 10px;
-	background: lightblue;
-}
-div#colonne2,#colonne2a {
-	float: right;
-	width: 300px;
-	margin-left: 10px;
-	background: burlywood;
-}
-div#centre,#centrea  {
-	margin-left: 170px;
-	margin-right: 310px;
-	background: khaki;
-}
+
+
+
+table {
+ border-width:1px; 
+
+ border-color:white;
+ width:50%;
+ margin-left: auto;
+ margin-right: auto;
+
+ }
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:white;
+ width:50%;
+ background: LightSteelBlue;
+ }
 
 
 
