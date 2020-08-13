@@ -1,7 +1,22 @@
-html {
-	margin: center;
-	padding: center;
-	}
+ html, body, table, td {
+height : 75%;
+width : 75%;
+margin : auto;
+padding : auto;
+text-align: center;
+
+
+}
+
+#conteneur {
+position : relative;
+margin : auto;
+width : center;
+height : center;
+text-align: auto;
+
+}
+
 body { 
 	text-align: center;
 	font: 75% georgia, sans-serif;
