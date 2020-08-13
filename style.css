@@ -1,4 +1,6 @@
- html, body, table, td {
+
+
+html, body, div#colonne1,#colonne1a, div#colonne2,#colonne2a {
 height : 75%;
 width : 75%;
 margin : auto;
@@ -53,7 +55,23 @@ a:link {
 	}
 
 
-
+div#colonne1,#colonne1a {
+	float: left;
+	width: 180px;
+	margin-right: 10px;
+	background: lightblue;
+}
+div#colonne2,#colonne2a {
+	float: right;
+	width: 300px;
+	margin-left: 10px;
+	background: burlywood;
+}
+div#centre,#centrea  {
+	margin-left: 170px;
+	margin-right: 310px;
+	background: khaki;
+}
 
 
 
