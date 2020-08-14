@@ -7,8 +7,8 @@
 }
 
 html, body, table, td, {
-height : 80%;
-width : 80%;
+height : auto;
+width : auto;
 margin : center;
 padding : center;
 text-align: center;
