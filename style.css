@@ -1,27 +1,24 @@
 
 
-html, body, table, td {
-height : 80%;
-width : 80%;
-margin : auto;
-padding : auto;
-text-align: center;
-
-
+/* si l'écran de terminal utilisé par le visiteur est un smartphone, alors..redimmensionner automatiquement l'écran et la table */
+@media all and (max-width:480px)
+{
+#table {width:auto}
 }
 
-#conteneur {
-position : relative;
-margin : auto;
-width : center;
-height : center;
+html, body, table, td, {
+height : 80%;
+width : 80%;
+margin : center;
+padding : center;
 text-align: center;
+
 
 }
 
 body { 
 	text-align: center;
-	font: 80% georgia, sans-serif;
+	font: 95% georgia, sans-serif;
 	line-height: 2.5;
 	color: #555753; 
 	margin: center; 
@@ -37,6 +34,7 @@ P.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 6em
+    text-align: justify;
 	}
 h2 { 
 	
@@ -61,17 +59,17 @@ a:link {
 table {
  border-width:1px; 
 
- border-color:white;
- width:50%;
+ border-color:grey;
+ width:30%;
  margin-left: auto;
  margin-right: auto;
 
  }
 td { 
  border-width:1px;
- border-style:solid; 
- border-color:white;
- width:50%;
+ border-style:line; 
+ border-color:grey;
+ width:10%;
  background: LightSteelBlue;
  }
 
